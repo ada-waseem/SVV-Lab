@@ -24,7 +24,9 @@
 
 | T7 | RETURNING         | Warehouse Reached         | IDLE              | R9                  | Wait for the next delivery request.                            |
 
-| T8 | IDLE | No Delivery Request | IDLE | R1 | Remain idle and wait for a delivery request. |
+| T8 | IDLE              | No Delivery Request       | IDLE              | R1                  | Remain idle and wait for a delivery request.                   |
+
+
 
 \## 3.2 Invalid Transitions
 
@@ -103,4 +105,6 @@ The valid transitions trace back to the requirements as follows:
 
 
 The invalid transitions demonstrate compliance with \*\*R1, R2, R5, and R10\*\*.
+
+
 
